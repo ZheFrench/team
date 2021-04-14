@@ -42,4 +42,8 @@ git revert --no-commit <commit>
 # You get the list of your git
 git log --oneline
 
+# Push a tagged version
+git tag -a v1.4 -m "my version 1.4"
+git push origin v.1.0
+
 ```
