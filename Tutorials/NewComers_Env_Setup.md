@@ -259,7 +259,7 @@ You add that in your /etc/fstab.
 
 If you want to do that you need to create your id_rsa and push it to bioinfo0 before.
 
-> villemin@compute0:/data/ /home/jp/Desktop/serveur fuse.sshfs defaults,_netdev,IdentityFile=/home/jp/.ssh/id_rsa,allow_other   0   0 
+> villemin@compute0:/data/ /home/jp/Desktop/serveur fuse.sshfs defaults,_netdev,IdentityFile=/home/jp/.ssh/id_rsa,allow_other,follow_symlinks   0   0 
 
 ```shell
 sudo mount -av (will mount every thing and ask for password)
