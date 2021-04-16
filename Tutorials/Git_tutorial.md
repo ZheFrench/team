@@ -44,6 +44,12 @@ git log --oneline
 
 # Push a tagged version
 git tag -a v1.4 -m "my version 1.4"
-git push origin v.1.0
+git push origin v.1.4
+
+# remove locally tag
+git tag -d  v.1.4
+
+# if you want to remove remotely
+git push origin :refs/tags/v.1.4
 
 ```
