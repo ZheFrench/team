@@ -24,6 +24,18 @@ git config --global --unset-all http.proxy
 git branch -M main
 git push -u origin -M main
 
+# Classiquement...(proxy doesn't let us)
+# you could configure .ssh.config as detailed here https://gitolite.com/git-over-proxy.html
+# need to be root 
+# so you need to switch to https before doing the final line
+
+# SWITCH
+git remote set-url origin https://github.com/ZheFrench/Tcd8.git
+
+git push -u origin main
+
+
+
 #List the files and their states.
 
 git status -s
