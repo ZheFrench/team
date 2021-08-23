@@ -334,7 +334,10 @@ conda activate r4-base
 # Port 22 and http port must be open 
 jupyter-lab --ip 0.0.0.0 --port 3980 --no-browser
 
-# On you local machine run this , for secure ssh tunelling
+# Direct http adress
+http://compute0.crlc.intra:3980/lab
+
+# On you local machine run this , for secure ssh tunelling, I don't remember if you really need this part...
 ssh -N -f -L 8888:localhost:3980 villemin@compute0
 
 # Now you can access to you remote files in your browser using : 
