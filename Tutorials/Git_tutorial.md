@@ -1,3 +1,9 @@
+## Gitlab in IRCM
+
+http://compute0.crlc.intra/gitlab
+
+Ask for an account. This will not be open to the outside world.
+
 ## How to use git
 
 
