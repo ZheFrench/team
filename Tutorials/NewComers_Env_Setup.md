@@ -62,7 +62,7 @@ HTTPS::proxy "http://proxywsg.crlc.intra:3128";
 Note : When your are home. In windows, disable proxy. Do the same in linux (in Network)
 But for packages you need to change /etc/apt/apt.conf.d/proxy.conf
 
->Acquire {
+> Acquire {
   HTTP::proxy ""false";";
   HTTPS::proxy "false";";
 }
